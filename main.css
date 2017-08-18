@@ -1,0 +1,17 @@
+body {
+    color: red;
+}
+
+.section-1 {
+    height: 100vh;
+    background-color: rgb(226, 240, 241);
+    color: red;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(IMG_4133_meitu_1.jpg);
+}
+
+.section-2 {
+    height: 100vh;
+    background-color: antiquewhite;
+}
