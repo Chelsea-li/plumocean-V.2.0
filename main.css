@@ -1,17 +1,68 @@
-body {
-    color: red;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-.section-1 {
-    height: 100vh;
+body,
+html {
+    color: #fff;
+    font-size: 20px;
+}
+
+h1,
+h3,
+ul {
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 400%;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 200%;
+}
+
+header {
     background-color: rgb(226, 240, 241);
-    color: red;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(IMG_4133_meitu_1.jpg);
+    height: 100vh;
 }
 
-.section-2 {
-    height: 100vh;
-    background-color: antiquewhite;
+ul {
+    list-style: none;
+    font-size: 120%;
+    margin-top: 10%;
+}
+
+li {
+    float: left;
+    margin-left: 30px;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid aquamarine;
+    padding-bottom: 1px;
+}
+
+.title {
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.title span {
+    color: aquamarine;
 }
