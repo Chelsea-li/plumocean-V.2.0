@@ -10,12 +10,12 @@ html {
     font-size: 20px;
     background-color: rgb(226, 240, 241);
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    font-family: 'Exo 2', sans-serif;
 }
 
 h1,
 h3,
 ul {
-    font-family: 'Exo 2', sans-serif;
     text-transform: uppercase;
 }
 
@@ -41,8 +41,10 @@ h3 {
     height: 10vh;
 }
 
-.navbar .show ul {
-    font-size: 15px;
+.navbar-light .navbar-brand {
+    color: rgb(142, 255, 237);
+    font-size: 150%;
+    font-weight: 600;
 }
 
 .navbar ul li {
@@ -56,7 +58,7 @@ a {
 a:hover {
     text-decoration: none;
     color: #fff;
-    border-bottom: 2px solid aquamarine;
+    border-bottom: 2px solid rgb(142, 255, 237);
     padding-bottom: 1px;
 }
 
@@ -72,15 +74,20 @@ a:active {
 }
 
 .title span {
-    color: aquamarine;
+    color: rgb(142, 255, 237);
 }
 
 .projects {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.projects>div {
+.projects div {
     padding: 0px;
+}
+
+.projects img:hover {
+    border-bottom: 3px solid rgb(142, 255, 237);
 }
