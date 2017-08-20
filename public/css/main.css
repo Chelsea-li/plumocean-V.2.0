@@ -8,6 +8,8 @@ body,
 html {
     color: #fff;
     font-size: 20px;
+    background-color: rgb(226, 240, 241);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
 
 h1,
@@ -27,16 +29,10 @@ h3 {
     font-size: 200%;
 }
 
-.section {
-    background-color: rgb(226, 240, 241);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
-    height: 100vh;
-}
-
 .section-1 {
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(IMG_4133_meitu_1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../resources/images/IMG_4133_meitu_1.jpg);
     background-color: rgb(226, 240, 241);
     height: 90vh;
 }
@@ -45,27 +41,29 @@ h3 {
     height: 10vh;
 }
 
-.navbar li {
-    float: left;
-    margin-left: 30px;
+.navbar .show ul {
+    font-size: 15px;
 }
 
-ul {
-    list-style: none;
-    font-size: 110%;
-    margin-top: 10px;
+.navbar ul li {
+    margin-right: 30px;
 }
 
 a {
     color: #fff;
 }
 
-a:hover,
-a:active {
+a:hover {
     text-decoration: none;
     color: #fff;
     border-bottom: 2px solid aquamarine;
     padding-bottom: 1px;
+}
+
+a:focus,
+a:active {
+    color: aquamarine;
+    text-decoration: none;
 }
 
 .title {
@@ -77,11 +75,12 @@ a:active {
     color: aquamarine;
 }
 
-.img-thumbnail {
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.projects>div {
     padding: 0px;
-    float: left;
-    position: absolute;
-    left: -200px;
-    bottom: -715px;
-    border: none;
 }
