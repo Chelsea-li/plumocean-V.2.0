@@ -11,7 +11,7 @@
     </div>
     <div class="col-md-6">
         <p>Looking forward to answering your email</p>
-        <form method="POST" action="http://formspree.io/chelseawebdev@gmail.com">
+        <form method="POST" action="https://formspree.io/chelseawebdev@gmail.com">
             <div class="row form-group">
                 <div class="col-5">
                     <input class="form-control" type="text" name="name" placeholder="Name" required>
