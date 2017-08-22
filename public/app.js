@@ -25,9 +25,9 @@
                 .appendTo(context.$element());
         });
 
-        this.get('#/resume', function (context) {
+        this.get('#/about', function (context) {
             context.app.swap('');
-            context.render('templates/resume.template', {})
+            context.render('templates/about.template', {})
                 .appendTo(context.$element());
         });
 

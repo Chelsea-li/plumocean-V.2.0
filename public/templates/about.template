@@ -1,0 +1,54 @@
+<div class="container about">
+<div class="row">
+    <div class="col-md-6">
+        <h1>about</h1>
+        <div class="text-left">
+            <p>
+                I am a self-taught web developer. I am passionate about technology and web development. I enjoy making websites or web applications with great user experience. Problem-solving is always fun and rewarding. I would like to use my skills in developing and maintaining functional websites, and learn new technology as well. To work as a developer is my dream.
+            </p>
+        </div>
+        <br>
+        <h3>Work experience</h3>
+        <hr>
+        <h5>eCommerce Specialist</h5>
+        <h5>2016</h5><br>
+        <h5>Assistant Immigration Consultant</h5>
+        <h5>2014-2015</h5>
+        <br>
+        <h3>Education</h3>
+        <hr>
+        <h5>Free Code Camp <br>- Full Stack Web Development Certificate</h5>
+        <h5>2016-Present</h5><br>
+        <h5>University of Victoria - BA Economics</h5>
+        <h5>2011-2014</h5>
+    </div>
+    <div class="col-md-6">
+     <br><br><br>
+     <h3>Professional Skills</h3>
+     <hr>
+     <ul class="skill-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>BOOTSTRAP4</li>
+        <li>Jquery</li>
+        <li>Express.js</li>
+        <li>Mongoose</li>
+        <li>Node.js</li>
+        <li>Angular 4</li>
+        <li>git</li>
+        <li>MongoDB</li>
+        <li>firebase database</li>
+        <li>firbase & heroku deployment</li>
+        <li>AWS</li>
+     </ul>
+     <br>
+     <h3>Languages</h3>
+     <hr>
+     <ul class="skill-list">
+        <li>English</li>
+        <li>Chinese</li>
+     </ul>
+    </div>
+</div>
+    
+</div>

@@ -29,7 +29,22 @@ h3 {
     font-size: 200%;
 }
 
-.section-1 {
+.contact,
+.about,
+.project {
+    margin-top: 8vh;
+}
+
+
+/*************************************/
+
+
+/****************** HOME ******************/
+
+
+/*************************************/
+
+.homepage {
     background-repeat: no-repeat;
     background-size: contain;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../resources/images/IMG_4133_meitu_1.jpg);
@@ -37,18 +52,30 @@ h3 {
     height: 90vh;
 }
 
+.job-title {
+    margin-top: 30px;
+}
+
 .navbar {
     height: 10vh;
 }
 
-.navbar-light .navbar-brand {
+.brand {
     color: rgb(142, 255, 237);
     font-size: 150%;
     font-weight: 600;
 }
 
-.navbar ul li {
-    margin-right: 30px;
+ul {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+}
+
+ul li {
+    float: left;
+    margin-right: 20px;
 }
 
 a {
@@ -64,7 +91,7 @@ a:hover {
 
 a:focus,
 a:active {
-    color: aquamarine;
+    color: rgb(142, 255, 237);
     text-decoration: none;
 }
 
@@ -76,6 +103,15 @@ a:active {
 .title span {
     color: rgb(142, 255, 237);
 }
+
+
+/*************************************/
+
+
+/****************** PROJECTS *******************/
+
+
+/*************************************/
 
 .projects {
     display: flex;
@@ -90,4 +126,50 @@ a:active {
 
 .projects img:hover {
     border-bottom: 3px solid rgb(142, 255, 237);
+}
+
+.skill-list,
+.skill-list li {
+    float: none;
+}
+
+hr {
+    color: rgb(142, 255, 237);
+    border-top: 1px solid rgb(142, 255, 237);
+}
+
+
+/*************************************/
+
+
+/******************CONTACT*******************/
+
+
+/*************************************/
+
+.form-control {
+    border-radius: 0;
+    padding: .6em;
+    font-size: .8em;
+    background-color: transparent;
+}
+
+.form-control:focus {
+    border: 2px solid rgb(142, 255, 237);
+}
+
+.email {
+    margin: 20px 10px 20px;
+}
+
+.contact-list {
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+.btn-submit {
+    border-radius: 0;
+    border-color: rgb(142, 255, 237);
+    background-color: transparent;
+    color: rgb(142, 255, 237);
 }

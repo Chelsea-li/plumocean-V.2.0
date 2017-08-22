@@ -1,12 +1,11 @@
-<div class="container-fluid section-1">
+
+<div class="container-fluid homepage">
     <div class="row">
-        <div class="col-md-7 offset-md-5 title">
+        <div class="col-md-7 offset-md-5 col-sm-6 offset-sm-6 title">
             <h1>I<span>'</span>m</h1>
             <h1>Chelsea</h1>
             <h1>Li<span>.</span></h1>
-        </div>
-        <div class="col-md-7 offset-md-5">
-            <h3>Junior Web Developer</h3>
+            <h3 class="job-title">Junior Web Developer</h3>
         </div>
     </div>
 </div>
