@@ -38,7 +38,7 @@ h3 {
 .about,
 .project {
     margin-top: 8vh;
-    margin-bottom: 8vh;
+    margin-bottom: 5vh;
 }
 
 
@@ -103,12 +103,9 @@ a:active {
     background-size: contain;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.6))), url(../resources/images/IMG_4133_meitu_1.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../resources/images/IMG_4133_meitu_1.jpg);
+    background-position: left bottom;
     background-color: rgb(226, 240, 241);
     height: 90vh;
-}
-
-.job-title {
-    margin-top: 30px;
 }
 
 .title {
@@ -118,6 +115,11 @@ a:active {
 
 .title span {
     color: rgb(142, 255, 237);
+}
+
+.job-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -135,8 +137,6 @@ a:active {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .projects div {

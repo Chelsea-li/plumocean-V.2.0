@@ -1,9 +1,20 @@
+/*----------big tablet to 1600px----------------*/
+
+@media only screen and (max-width:1600px) {
+    body {
+        font-size: 26px;
+    }
+    .title {
+        margin-top: 12%;
+    }
+}
+
+
 /*----------big tablet to 1200px (width smaller than 1140px row)----------------*/
 
 @media only screen and (max-width:1200px) {
-    body,
-    html {
-        font-size: 22px;
+    body {
+        font-size: 26px;
     }
 }
 
@@ -11,8 +22,7 @@
 /*----------small tablet to big tablet: 768 to 1023px-----------------*/
 
 @media only screen and (max-width:1023px) {
-    body,
-    html {
+    body {
         font-size: 16px;
     }
 }
@@ -40,4 +50,25 @@
     .navbar {
         height: 30vh;
     }
+    .brand {
+        font-size: 25px;
+    }
 }
+
+
+/* ----------- iPhone 6 ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
