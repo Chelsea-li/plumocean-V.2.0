@@ -5,9 +5,7 @@
     box-sizing: border-box;
 }
 
-html {
-    min-height: 100%;
-}
+html {}
 
 body {
     color: #fff;
@@ -100,11 +98,10 @@ a:active {
 
 .homepage {
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.6))), url(../resources/images/IMG_4133_meitu_1.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../resources/images/IMG_4133_meitu_1.jpg);
-    background-color: rgb(226, 240, 241);
-    height: 90vh;
+    background-image: linear-gradient(rgba(162, 195, 189, 0.23), rgba(0, 0, 0, 0.6)), url(../resources/images/IMG_4133_meitu_1.jpg);
+    min-height: 90vh;
 }
 
 .job-title {
