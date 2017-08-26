@@ -9,7 +9,7 @@
             <li class="nav-item"><a href="https://www.linkedin.com/in/yang-li-a331a7137/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
         </ul>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 email-section">
         <p>Looking forward to answering your email</p>
         <form method="POST" action="https://formspree.io/chelseawebdev@gmail.com">
             <div class="row form-group">

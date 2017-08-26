@@ -36,7 +36,7 @@ h3 {
 .about,
 .project {
     margin-top: 8vh;
-    margin-bottom: 8vh;
+    margin-bottom: 5vh;
 }
 
 
@@ -100,12 +100,15 @@ a:active {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.6))), url(../resources/images/IMG_4133_meitu_1.jpg);
+<<<<<<< HEAD
     background-image: linear-gradient(rgba(162, 195, 189, 0.23), rgba(0, 0, 0, 0.6)), url(../resources/images/IMG_4133_meitu_1.jpg);
     min-height: 90vh;
-}
-
-.job-title {
-    margin-top: 30px;
+=======
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../resources/images/IMG_4133_meitu_1.jpg);
+    background-position: left bottom;
+    background-color: rgb(226, 240, 241);
+    height: 90vh;
+>>>>>>> 93c970e3dabf718ca3fdc4685d19973b063a506b
 }
 
 .title {
@@ -115,6 +118,11 @@ a:active {
 
 .title span {
     color: rgb(142, 255, 237);
+}
+
+.job-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -132,8 +140,6 @@ a:active {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .projects div {
@@ -162,6 +168,10 @@ hr {
 
 
 /*************************************/
+
+.email-section {
+    margin-bottom: 20%;
+}
 
 .form-control {
     border-radius: 0;

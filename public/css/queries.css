@@ -1,9 +1,27 @@
+/*----------big tablet to 1600px----------------*/
+
+@media only screen and (max-width:1600px) {
+    body {
+        font-size: 24px;
+    }
+    .title {
+        margin-top: 8%;
+    }
+}
+
+
 /*----------big tablet to 1200px (width smaller than 1140px row)----------------*/
 
+<<<<<<< HEAD
 @media only screen and (min-width:1023px) {
     body,
     html {
         font-size: 22px;
+=======
+@media only screen and (max-width:1200px) {
+    body {
+        font-size: 20px;
+>>>>>>> 93c970e3dabf718ca3fdc4685d19973b063a506b
     }
 }
 
@@ -11,8 +29,7 @@
 /*----------small tablet to big tablet: 768 to 1023px-----------------*/
 
 @media only screen and (max-width:1023px) {
-    body,
-    html {
+    body {
         font-size: 16px;
     }
 }
@@ -34,10 +51,40 @@
 }
 
 
-/*----------Small phones: 0 to 480px-----------------*/
+/*----------Small phones and ipad-----------------*/
 
-@media only screen and (max-width:480px) {
-    .navbar {
-        height: 30vh;
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+
+/* Portrait and Landscape */
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .homepage {
+        height: 90%;
+        margin-top: 10%;
+    }
+}
+
+
+/* Landscape for ipad, ipad, ipad pro, iphone6, iphone 6 plus, galaxy S5 */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    body {
+        font-size: 12px;
+    }
+    .brand {
+        font-size: 15px;
+    }
+    ul {
+        margin-top: 3px;
     }
 }
