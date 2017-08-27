@@ -66,6 +66,9 @@
     .title h1 {
         font-size: 6rem;
     }
+    .homepage {
+        max-height: 80vh;
+    }
 }
 
 @media only screen and (min-width: 1201px) and (orientation: landscape) {
@@ -77,6 +80,9 @@
         bottom: 5rem;
     }
     .title h1 {
-        font-size: 7rem;
+        font-size: 6rem;
+    }
+    .homepage {
+        max-height: 75vh;
     }
 }
