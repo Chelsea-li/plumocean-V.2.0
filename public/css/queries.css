@@ -1,90 +1,82 @@
-/*----------big tablet to 1600px----------------*/
-
-@media only screen and (max-width:1600px) {
-    body {
-        font-size: 24px;
+@media only screen and (min-width: 320px) and (max-width:415px) and (orientation: portrait) {
+    .homepage {
+        background-position: -1.5rem;
     }
-    .title {
-        margin-top: 8%;
+    .nav-items {
+        text-align: left;
+    }
+    ul li {
+        margin-right: 0.5rem;
     }
 }
 
 
-/*----------big tablet to 1200px (width smaller than 1140px row)----------------*/
+/*ipad*/
 
-<<<<<<< HEAD
-@media only screen and (min-width:1023px) {
-    body,
-    html {
-        font-size: 22px;
-=======
-@media only screen and (max-width:1200px) {
+@media only screen and (min-width: 416px) and (max-width:769px) and (orientation: portrait) {
+    body {
+        font-size: 23px;
+    }
+    .homepage {
+        background-position: -1.5rem;
+    }
+    .title {
+        right: 11rem;
+    }
+}
+
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+    .title {
+        left: 13rem;
+    }
+    ul li {
+        margin-right: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 569px) and (max-width: 736px) and (orientation: landscape) {
+    .title {
+        left: 20rem;
+    }
+    ul li {
+        margin-right: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 737px) and (max-width: 991px) and (orientation: landscape) {
+    body {
+        font-size: 18px;
+    }
+    .title {
+        left: 9rem;
+    }
+    .title h1 {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) and (orientation: landscape) {
     body {
         font-size: 20px;
->>>>>>> 93c970e3dabf718ca3fdc4685d19973b063a506b
-    }
-}
-
-
-/*----------small tablet to big tablet: 768 to 1023px-----------------*/
-
-@media only screen and (max-width:1023px) {
-    body {
-        font-size: 16px;
-    }
-}
-
-
-/*----------Small phones to small tablets: 481 to 767px----------------*/
-
-@media only screen and (max-width:767px) {
-    .container {
-        margin: 0px;
-        width: 760px;
     }
     .title {
-        margin-top: 15vh;
+        left: 10rem;
+        bottom: 8rem;
     }
-    .job-title {
-        font-size: 25px;
-    }
-}
-
-
-/*----------Small phones and ipad-----------------*/
-
-
-/* ----------- iPhone 5 and 5S ----------- */
-
-
-/* Portrait and Landscape */
-
-
-/* Portrait */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
-
-
-/* Landscape */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-    .homepage {
-        height: 90%;
-        margin-top: 10%;
+    .title h1 {
+        font-size: 6rem;
     }
 }
 
-
-/* Landscape for ipad, ipad, ipad pro, iphone6, iphone 6 plus, galaxy S5 */
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+@media only screen and (min-width: 1201px) and (orientation: landscape) {
     body {
-        font-size: 12px;
+        font-size: 26px;
     }
-    .brand {
-        font-size: 15px;
+    .title {
+        left: 6rem;
+        bottom: 5rem;
     }
-    ul {
-        margin-top: 3px;
+    .title h1 {
+        font-size: 7rem;
     }
 }

@@ -10,27 +10,27 @@
     <br>
     <div class="container">
         <div class="row projects">
-            <div class="col-md-4 col-lg-3 col-sm-6">
+            <div class="col-6 col-md-4 col-lg-3">
                 <a href="https://agile-stream-88445.herokuapp.com/" target="_blank">
                     <img src="../resources/images/yelpcamp.png" alt="yelpcampimage" class="img-fluid">
                 </a>
             </div>
-             <div class="col-md-4 col-lg-3 col-sm-6">
+             <div class="col-6 col-md-4 col-lg-3">
                 <a href="https://clientmanager-ded6a.firebaseapp.com/" target="_blank">
                     <img src="../resources/images/clientmanager.png" alt="clientmanager image" class="img-fluid" style="height: auto;">
                 </a>
             </div>
-            <div class="col-md-4 col-lg-3 col-sm-6">
+            <div class="col-6 col-md-4 col-lg-3">
                 <a href="https://codepen.io/Chelsea-Li/pen/EvgWGm" target="_blank">
                     <img src="../resources/images/colorGame.png" alt="colorguess game image" class="img-fluid">
                 </a>
             </div>
-            <div class="col-md-4 col-lg-3 col-sm-6">
+            <div class="col-6 col-md-4 col-lg-3">
                 <a href="https://woofblog.herokuapp.com/blogs" target="_blank">
                     <img src="../resources/images/woofblog.jpg" alt="blog image" class="img-fluid">
                 </a>
             </div>
-            <div class="col-md-4 col-lg-3 col-sm-6">
+            <div class="col-6 col-md-4 col-lg-3">
                 <a href="https://omnifood-project.herokuapp.com/" target="_blank">
                     <img src="../resources/images/omnifood1.png" alt="omnifood image" class="img-fluid">
                 </a>
@@ -40,7 +40,7 @@
     <br>
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-12">
                 <p class="codepen-arrow">More mini API applicaions on <i class="fa fa-hand-o-right" aria-hidden="true"></i>
                 <a href="https://codepen.io/Chelsea-Li/" target="_blank"><i>Codepen</i></a>.</p>
             </div>
