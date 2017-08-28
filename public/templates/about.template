@@ -10,18 +10,20 @@
         <br>
         <h3>Work experience</h3>
         <hr>
+        <br>
         <h5>Assistant Immigration Consultant</h5>
         <h5>2014-2016 <span class="pull-right">Victoria, BC</span></h5>
         <br>
         <h3>Education</h3>
         <hr>
+        <br>
         <h5>Free Code Camp <br>- Full Stack Web Development Certificate</h5>
         <h5>2016-Present</h5><br>
         <h5>University of Victoria - BA Economics</h5>
         <h5>2011-2014</h5>
     </div>
     <div class="col-md-6">
-     <br><br><br>
+     <br><br>
      <h3>Professional Skills</h3>
      <hr>
      <ul class="skill-list">
@@ -40,13 +42,14 @@
         <li>firbase & heroku deployment</li>
         <li>AWS</li>
      </ul>
-     <br>
+     <br><br>
      <h3>Languages</h3>
      <hr>
      <ul class="skill-list">
         <li>English</li>
         <li>Chinese</li>
      </ul>
+     <br>
     </div>
 </div>
     

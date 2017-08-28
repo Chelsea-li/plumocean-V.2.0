@@ -10,9 +10,6 @@
     }
 }
 
-
-/*ipad*/
-
 @media only screen and (min-width: 416px) and (max-width:769px) and (orientation: portrait) {
     body {
         font-size: 23px;
@@ -21,11 +18,18 @@
         background-position: -1.5rem;
     }
     .title {
-        right: 11rem;
+        top: 2rem;
+        right: -8rem;
+    }
+    .nav-items {
+        font-size: 1.3rem;
     }
 }
 
 @media only screen and (max-width: 568px) and (orientation: landscape) {
+    body {
+        min-width: 100%;
+    }
     .title {
         left: 13rem;
     }
@@ -35,11 +39,21 @@
 }
 
 @media only screen and (min-width: 569px) and (max-width: 736px) and (orientation: landscape) {
+    body {
+        min-width: 100%;
+    }
+    .homepage {
+        min-height: 90vh;
+    }
     .title {
         left: 20rem;
     }
     ul li {
         margin-right: 0.5rem;
+    }
+    .contact,
+    .email-section {
+        margin-top: 1rem;
     }
 }
 
@@ -67,7 +81,7 @@
         font-size: 6rem;
     }
     .homepage {
-        max-height: 80vh;
+        min-height: 95vh;
     }
 }
 
@@ -77,12 +91,15 @@
     }
     .title {
         left: 6rem;
-        bottom: 5rem;
+        bottom: 8rem;
     }
     .title h1 {
         font-size: 6rem;
     }
+    h1 {
+        font-size: 4rem;
+    }
     .homepage {
-        max-height: 75vh;
+        min-height: 95vh;
     }
 }

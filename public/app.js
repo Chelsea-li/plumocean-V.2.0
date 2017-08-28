@@ -3,15 +3,6 @@
 
     var app = $.sammy('#app', function () {
         this.use('Template');
-        /*
-                this.around(function (callback) {
-                    var context = this;
-                    this.load('data/articles.json')
-                        .then(function (items) {
-                            context.items = items;
-                        })
-                        .then(callback);
-                });*/
 
         this.get('#/', function (context) {
             context.app.swap('');
