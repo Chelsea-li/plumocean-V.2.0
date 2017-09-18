@@ -26,12 +26,12 @@ ul {
 
 h1 {
     font-weight: 800;
-    font-size: 400%;
+    font-size: 4em;
 }
 
 h3 {
     font-weight: 300;
-    font-size: 200%;
+    font-size: 2em;
 }
 
 .contact,
@@ -58,13 +58,14 @@ h3 {
     color: rgb(142, 255, 237);
     font-size: 150%;
     font-weight: 600;
+    min-width: 150px;
 }
 
 ul {
     list-style: none;
     display: inline-block;
     float: left;
-    margin-top: 10px;
+    margin-top: 0.5em;
 }
 
 ul li {
