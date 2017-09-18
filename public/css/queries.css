@@ -1,83 +1,105 @@
-/*----------big tablet to 1600px----------------*/
-
-@media only screen and (max-width:1600px) {
-    body {
-        font-size: 24px;
+@media only screen and (min-width: 320px) and (max-width:415px) and (orientation: portrait) {
+    .homepage {
+        background-position: -1.5rem;
     }
-    .title {
-        margin-top: 8%;
+    .nav-items {
+        text-align: left;
+    }
+    ul li {
+        margin-right: 0.5rem;
     }
 }
 
+@media only screen and (min-width: 416px) and (max-width:769px) and (orientation: portrait) {
+    body {
+        font-size: 23px;
+    }
+    .homepage {
+        background-position: -1.5rem;
+    }
+    .title {
+        top: 2rem;
+        right: -8rem;
+    }
+    .nav-items {
+        font-size: 1.3rem;
+    }
+}
 
-/*----------big tablet to 1200px (width smaller than 1140px row)----------------*/
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+    body {
+        min-width: 100%;
+    }
+    .title {
+        left: 13rem;
+    }
+    ul li {
+        margin-right: 0.5rem;
+    }
+}
 
-@media only screen and (max-width:1200px) {
+@media only screen and (min-width: 569px) and (max-width: 736px) and (orientation: landscape) {
+    body {
+        min-width: 100%;
+    }
+    .homepage {
+        min-height: 90vh;
+    }
+    .title {
+        left: 20rem;
+    }
+    ul li {
+        margin-right: 0.5rem;
+    }
+    .contact,
+    .email-section {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 737px) and (max-width: 991px) and (orientation: landscape) {
+    body {
+        font-size: 18px;
+    }
+    .title {
+        left: 9rem;
+    }
+    .title h1 {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) and (orientation: landscape) {
     body {
         font-size: 20px;
     }
-}
-
-
-/*----------small tablet to big tablet: 768 to 1023px-----------------*/
-
-@media only screen and (max-width:1023px) {
-    body {
-        font-size: 16px;
+    .title {
+        left: 10rem;
+        bottom: 8rem;
+    }
+    .title h1 {
+        font-size: 6rem;
+    }
+    .homepage {
+        min-height: 95vh;
     }
 }
 
-
-/*----------Small phones to small tablets: 481 to 767px----------------*/
-
-@media only screen and (max-width:767px) {
-    .container {
-        margin: 0px;
-        width: 760px;
+@media only screen and (min-width: 1201px) and (orientation: landscape) {
+    body {
+        font-size: 26px;
     }
     .title {
-        margin-top: 15vh;
+        left: 6rem;
+        bottom: 8rem;
     }
-    .job-title {
-        font-size: 25px;
+    .title h1 {
+        font-size: 6rem;
     }
-}
-
-
-/*----------Small phones and ipad-----------------*/
-
-
-/* ----------- iPhone 5 and 5S ----------- */
-
-
-/* Portrait and Landscape */
-
-
-/* Portrait */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
-
-
-/* Landscape */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    h1 {
+        font-size: 4rem;
+    }
     .homepage {
-        height: 90%;
-        margin-top: 10%;
-    }
-}
-
-
-/* Landscape for ipad, ipad, ipad pro, iphone6, iphone 6 plus, galaxy S5 */
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-    body {
-        font-size: 12px;
-    }
-    .brand {
-        font-size: 15px;
-    }
-    ul {
-        margin-top: 3px;
+        min-height: 95vh;
     }
 }
