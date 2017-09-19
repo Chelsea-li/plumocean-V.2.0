@@ -5,9 +5,6 @@
     .nav-items {
         text-align: left;
     }
-    ul li {
-        margin-right: 0.5rem;
-    }
 }
 
 @media only screen and (min-width: 416px) and (max-width:769px) and (orientation: portrait) {
@@ -21,9 +18,6 @@
         top: 2rem;
         right: -8rem;
     }
-    .nav-items {
-        font-size: 1.3rem;
-    }
 }
 
 @media only screen and (max-width: 568px) and (orientation: landscape) {
@@ -32,9 +26,6 @@
     }
     .title {
         left: 13rem;
-    }
-    ul li {
-        margin-right: 0.5rem;
     }
 }
 
@@ -47,9 +38,6 @@
     }
     .title {
         left: 20rem;
-    }
-    ul li {
-        margin-right: 0.5rem;
     }
     .contact,
     .email-section {
